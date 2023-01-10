@@ -8,6 +8,10 @@ public class Solution {
 
     public static void main(String[] args) {
         //напишите тут ваш код
+        int intValue = 5;
+        int numericValue = 10;
+        int size = 3;
+        int number = 7;
 
     }
 }
