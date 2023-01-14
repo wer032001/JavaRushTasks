@@ -6,7 +6,14 @@ package com.javarush.task.pro.task04.task0407;
 
 public class Solution {
     public static void main(String[] args) {
-        //напишите тут ваш код
-
-    }
+        int sum = 0;
+        int n = 0;
+        while (n < 100) {
+            n++;
+            if ((n % 3) == 0)
+                continue;
+                sum = sum + n ;
+            }
+        System.out.println(sum);
+        }
 }
