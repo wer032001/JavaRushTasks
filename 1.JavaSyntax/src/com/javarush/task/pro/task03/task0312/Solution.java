@@ -8,9 +8,14 @@ import java.util.Scanner;
 
 public class Solution {
     public static void main(String[] args) {
-        //напишите тут ваш код
-        System.out.println("строки одинаковые");
-        //напишите тут ваш код
-        System.out.println("строки разные");
+        Scanner scanner = new Scanner(System.in);
+        String str1 = scanner.nextLine();
+        String srr2 = scanner.nextLine();
+
+        if (str1.equals(srr2)) {
+            System.out.println("строки одинаковые");
+        } else {
+            System.out.println("строки разные");
+        }
     }
 }
